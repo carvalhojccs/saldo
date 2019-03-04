@@ -17,5 +17,11 @@ class UsersTableSeeder extends Seeder
             'email' => 'carvalhojccs@fab.mil.br',
             'password' => bcrypt('123456'),
         ]);
+        
+        User::create([
+            'name' => 'Laudicéia Lima Duarte',
+            'email' => 'laudiceialld@fab.mil.br',
+            'password' => bcrypt('123456'),
+        ]);
     }
 }
